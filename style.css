@@ -16,7 +16,7 @@ img {
     display: flex;
 }
 
-.header{
+.header {
     background-color: darkolivegreen;
 }
 
@@ -54,7 +54,7 @@ img {
     display: flex;
 }
 
-.banner-links{
+.banner-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,33 +62,34 @@ img {
     font-weight: normal;
 }
 
-.overview{
+.overview {
     display: flex;
     flex-direction: column;
 }
 
-.sign-up-button{
+.sign-up-button {
     display: flex;
     padding: 10px;
     max-width: 125px;
     justify-content: center;
     border-radius: 12px;
+    cursor: pointer
 }
 
-.info-header{
+.info-header {
     display: flex;
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
 }
 
-.info-content{
+.info-content {
     display: flex;
     justify-content: space-between;
     /* align-items: stretch; */
 }
 
-.info-box{
+.info-box {
     display: flex;
     flex-shrink: 1;
     text-wrap: wrap;
@@ -96,6 +97,83 @@ img {
     flex-direction: column;
     align-items: center;
 }
+
+.cropped-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.quote {
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    flex-direction: column
+}
+
+.quote-content {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    font-size: 24px;
+    align-self: flex-end;
+    text-wrap: nowrap
+}
+
+.call-to-action-container {
+    display: flex;
+    background-color: tan;
+    /* flex-direction: column; */
+    align-items: center;
+    border-radius: 10px;
+    margin: 50px 100px;
+    padding: 20px;
+}
+
+.ending-statement {
+    display: flex;
+    flex-basis: 3000px;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 20px
+}
+
+.main-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sub-text {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-basis: 1;
+    justify-content: flex-end;
+    padding-right: 40px;
+    cursor: pointer;
+    /* Adjust padding as needed */
+}
+
+.sign-up-button {}
+
+.copywrite {
+    display: flex;
+    justify-content: center;
+    background-color: saddlebrown;
+    font-size: 11px;
+}
+
 img {
     max-width: 100%;
     height: auto;
